@@ -1,1 +1,3 @@
-const reverseString = (str) => str.split("").reverse().join("");
+function countConsonants(str) {
+  return str.match(/[bcdfghjklmnpqrstvwxyz]/gi).length;
+}
