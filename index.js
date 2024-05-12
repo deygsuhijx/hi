@@ -1,3 +1,3 @@
-function countConsonants(str) {
-  return str.match(/[bcdfghjklmnpqrstvwxyz]/gi).length;
+function getMin(arr) {
+  return Math.min(...arr);
 }
